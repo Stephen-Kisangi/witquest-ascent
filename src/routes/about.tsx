@@ -25,8 +25,8 @@ const values = [
 ];
 
 const leaders = [
-  { name: "Dr. Mary Wanjiku", role: "Head of School" },
-  { name: "Mr. Samuel Otieno", role: "Director of Academics" },
+  { name: "Dr. Kenneth Witquest", role: "Head of School" },
+  { name: "Mr. Stephen Kisangi", role: "Director of Academics" },
   { name: "Mrs. Faith Kimani", role: "Head of Pastoral Care" },
   { name: "Mr. Brian Mwangi", role: "Head of Co-Curricular" },
 ];
