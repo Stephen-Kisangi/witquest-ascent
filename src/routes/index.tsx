@@ -61,7 +61,7 @@ function Home() {
           <div className="max-w-3xl">
             <span className="eyebrow !text-gold fade-up">CBC · Muranga County, Kenya</span>
             <h1 className="mt-5 text-4xl md:text-6xl lg:text-7xl !text-white leading-[1.05] fade-up fade-up-delay-1">
-              Kenyan Heart. <span className="text-gold">Global Mind.</span>
+              Kenyan Heart, <span className="text-gold">Global Mind.</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed fade-up fade-up-delay-2">
               WitQuest Castle School offers a rigorous CBC education that combines cutting-edge learning

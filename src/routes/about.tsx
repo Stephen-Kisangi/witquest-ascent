@@ -122,7 +122,7 @@ function AboutPage() {
       <section className="section bg-primary text-white">
         <div className="container-page text-center">
           <span className="eyebrow !text-gold">Our Motto</span>
-          <h2 className="mt-4 text-4xl md:text-6xl !text-white">Kenyan Heart. Global Mind.</h2>
+          <h2 className="mt-4 text-4xl md:text-6xl !text-white">Kenyan Heart, Global Mind.</h2>
           <p className="mt-6 text-white/85 max-w-2xl mx-auto leading-relaxed">
             Rooted in Kenyan values. Equipped for the world. We fuse innovation, critical thinking and
             global awareness with the warmth and pride of being Kenyan.
