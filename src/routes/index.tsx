@@ -26,13 +26,15 @@ const stats = [
   { v: "98%", l: "Parent satisfaction" },
 ];
 
+import { GraduationCap, FlaskConical, Palette, Heart, Globe, Landmark } from "lucide-react";
+
 const features = [
-  { icon: "🎓", title: "CBC-Aligned Curriculum", desc: "Kenya's Competency-Based Curriculum brought to life through inquiry, projects and real-world skills." },
-  { icon: "🧪", title: "STEM & Innovation", desc: "Smart boards, digital tools, labs and creative spaces from pre-primary upward." },
-  { icon: "🎨", title: "Creative Arts", desc: "Music, visual arts and drama to grow expressive, confident kids." },
-  { icon: "💛", title: "Pastoral Care", desc: "Small classes (16–20 kids) and dedicated mentors who truly know every child." },
-  { icon: "🌍", title: "Kenyan Heart, Global Mind", desc: "Rooted in Kenyan values; preparing kids to thrive anywhere in the world." },
-  { icon: "🏛️", title: "Strong Values", desc: "Integrity, respect, civic duty and service rooted in everyday school life." },
+  { icon: GraduationCap, title: "CBC-Aligned Curriculum", desc: "Kenya's Competency-Based Curriculum brought to life through inquiry, projects and real-world skills." },
+  { icon: FlaskConical, title: "STEM & Innovation", desc: "Smart boards, digital tools, labs and creative spaces from pre-primary upward." },
+  { icon: Palette, title: "Creative Arts", desc: "Music, visual arts and drama to grow expressive, confident kids." },
+  { icon: Heart, title: "Pastoral Care", desc: "Small classes (16–20 kids) and dedicated mentors who truly know every child." },
+  { icon: Globe, title: "Kenyan Heart, Global Mind", desc: "Rooted in Kenyan values; preparing kids to thrive anywhere in the world." },
+  { icon: Landmark, title: "Strong Values", desc: "Integrity, respect, civic duty and service rooted in everyday school life." },
 ];
 
 const levels = [
