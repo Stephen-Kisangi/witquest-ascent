@@ -1,25 +1,28 @@
-// Central contact info for WitQuest Castle School
+// Central contact info for Zion Hill School Ngwata
 export const SCHOOL = {
-  name: "WitQuest Castle School",
-  motto: "Kenyan Heart, Global Mind",
-  tagline: "Empowering kids for impactful contributions to society.",
-  phonePrimary: "+254118362272",
-  phoneSecondary: "+254724548908",
-  // E.164 for tel: links and wa.me (no spaces, no plus)
-  phonePrimaryTel: "+254118362272",
-  phoneSecondaryTel: "+254724548908",
-  whatsappNumber: "254724548908",
-  email: "info@witquestcastlesch.org",
-  emailAdmissions: "info@witquestcastlesch.org",
-  emailCareers: "info@witquestcastlesch.org",
+  name: "Zion Hill School",
+  shortName: "Zion Hill",
+  location: "Ngwata",
+  motto: "For A Solid Foundation",
+  tagline:
+    "A nurturing CBC school in Mlolongo, Machakos — building solid foundations of character, curiosity and competence in every child.",
+  phonePrimary: "0721 301938",
+  phoneSecondary: "0792 915655",
+  phonePrimaryTel: "+254721301938",
+  phoneSecondaryTel: "+254792915655",
+  // wa.me requires E.164 without the plus
+  whatsappNumber: "254792915655",
+  email: "info@zionhillschool.ac.ke",
+  emailAdmissions: "admissions@zionhillschool.ac.ke",
+  emailCareers: "careers@zionhillschool.ac.ke",
   address: {
-    line1: "Tara, Thuthua, Ithanga / Kakuzi",
-    line2: "Muranga County, Opposite Garissa Road",
-    line3: "Landless / Happy Valley, Thika, Kenya",
+    line1: "Mlolongo Phase 3",
+    line2: "Machakos County, Kenya",
+    line3: "Easy access from the SGR road",
   },
   hours: "Monday – Saturday · 7:30am – 5:30pm",
   mapsEmbed:
-    "https://www.google.com/maps?q=Landless+Happy+Valley+Thika+Muranga&output=embed",
+    "https://www.google.com/maps?q=Mlolongo+Phase+3+Machakos&output=embed",
   social: {
     facebook: "https://facebook.com/",
     instagram: "https://instagram.com/",
