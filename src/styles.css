@@ -51,15 +51,20 @@
 :root {
   --radius: 0.875rem;
 
-  /* Brand — drawn from the WitQuest Castle School crest */
-  --brand-red: oklch(0.55 0.20 28);            /* crest red */
-  --brand-red-deep: oklch(0.45 0.18 28);
-  --navy: oklch(0.27 0.10 265);                /* crest navy */
-  --gold: oklch(0.82 0.16 88);                 /* crest gold */
-  --gold-soft: oklch(0.92 0.10 90);
-  --cream: oklch(0.985 0.008 85);
+  /* Brand — Zion Hill School (deep blue #0D3B66, golden #F4B400, sky #5DA9E9) */
+  --navy: oklch(0.32 0.10 255);                /* deep blue #0D3B66 */
+  --navy-deep: oklch(0.26 0.09 255);           /* navy #0a2e52 */
+  --gold: oklch(0.79 0.16 85);                 /* golden #F4B400 */
+  --gold-deep: oklch(0.68 0.14 80);            /* golden-dark */
+  --gold-soft: oklch(0.93 0.09 88);
+  --sky: oklch(0.74 0.13 240);                 /* light-blue #5DA9E9 */
+  --sky-tint: oklch(0.97 0.02 245);            /* sky-tint #EAF4FF */
+  /* Backwards-compatible accent token, mapped to the deep golden */
+  --brand-red: oklch(0.68 0.14 80);
+  --brand-red-deep: oklch(0.58 0.13 75);
+  --cream: oklch(0.99 0.005 250);
   --sage: oklch(0.93 0.03 150);
-  --ink: oklch(0.25 0.05 265);
+  --ink: oklch(0.22 0.06 255);
 
   /* Primary identity = the crest navy; red is the strong accent */
   --primary: var(--navy);
