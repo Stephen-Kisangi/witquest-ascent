@@ -60,9 +60,14 @@ function AdmissionsPage() {
       </PageHero>
 
       {/* SCHOLARSHIP BANNER */}
-      <section className="bg-brand-red text-white">
-        <div className="container-page py-6 text-center text-sm md:text-base font-medium">
-          🎓 <span className="font-bold">Enroll Today!</span> We're offering an exclusive <span className="font-bold">partial scholarship</span> for new kids — affordable, world-class CBC education with small classes and a nurturing Kenyan spirit. Spaces are limited 🚀
+      <section className="bg-navy text-white">
+        <div className="container-page py-5 flex flex-wrap items-center justify-center gap-3 text-center text-sm md:text-base font-medium">
+          <GraduationCap className="h-5 w-5 text-gold shrink-0" strokeWidth={2.25} />
+          <span>
+            <span className="font-bold text-gold">Enrolling Now —</span> exclusive
+            <span className="font-bold"> partial scholarships</span> for new kids. Limited spaces.
+          </span>
+          <Sparkles className="h-5 w-5 text-gold shrink-0" strokeWidth={2.25} />
         </div>
       </section>
 
