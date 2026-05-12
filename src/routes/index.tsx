@@ -155,7 +155,9 @@ function Home() {
           <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((f) => (
               <div key={f.title} className="feature-card">
-                <div className="text-3xl">{f.icon}</div>
+                <div className={`inline-flex h-14 w-14 items-center justify-center rounded-2xl ${f.bg} ${f.color}`}>
+                  <f.Icon className="h-7 w-7" strokeWidth={2} />
+                </div>
                 <h3 className="mt-5 text-xl">{f.title}</h3>
                 <p className="mt-3 text-muted-foreground leading-relaxed">{f.desc}</p>
               </div>
