@@ -38,14 +38,18 @@
   --color-brand-red: var(--brand-red);
   --color-brand-red-deep: var(--brand-red-deep);
   --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
   --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
   --color-gold-soft: var(--gold-soft);
+  --color-sky: var(--sky);
+  --color-sky-tint: var(--sky-tint);
   --color-cream: var(--cream);
   --color-sage: var(--sage);
   --color-ink: var(--ink);
 
-  --shadow-elegant: 0 10px 30px rgba(20, 30, 70, 0.10);
-  --shadow-lift: 0 24px 60px rgba(20, 30, 70, 0.20);
+  --shadow-elegant: 0 10px 30px rgba(13, 59, 102, 0.10);
+  --shadow-lift: 0 24px 60px rgba(13, 59, 102, 0.20);
 }
 
 :root {
