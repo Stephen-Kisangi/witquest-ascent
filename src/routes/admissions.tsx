@@ -7,9 +7,9 @@ import { SCHOOL, waLink } from "@/lib/school";
 export const Route = createFileRoute("/admissions")({
   head: () => ({
     meta: [
-      { title: "Admissions — WitQuest Castle School" },
-      { name: "description", content: "Admissions process, required documents, fees and FAQs at WitQuest Castle School, Muranga County, Kenya." },
-      { property: "og:title", content: "Admissions — WitQuest Castle" },
+      { title: "Admissions — Zion Hill School" },
+      { name: "description", content: "Admissions process, required documents, fees and FAQs at Zion Hill School, Machakos County, Kenya." },
+      { property: "og:title", content: "Admissions — Zion Hill" },
       { property: "og:description", content: "Begin your child's journey: a simple, warm 5-step admissions process." },
     ],
   }),
@@ -21,7 +21,7 @@ const steps = [
   { n: 2, t: "School Tour", d: "Meet our team, see the classrooms and learn about our approach." },
   { n: 3, t: "Application", d: "Submit the application form together with required documents." },
   { n: 4, t: "Assessment & Interview", d: "A friendly age-appropriate assessment and family conversation." },
-  { n: 5, t: "Offer & Welcome", d: "Receive your offer, complete enrolment and join the WitQuest family." },
+  { n: 5, t: "Offer & Welcome", d: "Receive your offer, complete enrolment and join the Zion Hill family." },
 ];
 
 const documents = [
@@ -35,7 +35,7 @@ const documents = [
 
 const faqs = [
   { q: "When does the school year start?", a: "Our academic year follows the Kenyan CBC calendar with three terms beginning in January, May and September." },
-  { q: "Do you offer transport?", a: "Yes — secure school buses cover the major routes around Thika, Muranga and surrounding areas. Routes are confirmed at enrolment." },
+  { q: "Do you offer transport?", a: "Yes — secure school buses cover the major routes around Mlolongo, Mlolongo and surrounding areas. Routes are confirmed at enrolment." },
   { q: "Are siblings prioritised?", a: "Yes. Siblings of current kids are given priority placement subject to space availability." },
   { q: "Do you offer scholarships?", a: "Yes — we are currently offering exclusive partial scholarships for new kids. Please ask the admissions team for details." },
   { q: "What is the class size?", a: "We keep classes between 16 and 20 kids, with dedicated assistant teachers in lower grades — for personalized attention and stronger bonds." },
@@ -43,12 +43,12 @@ const faqs = [
 
 function AdmissionsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const wa = waLink("Hello WitQuest Castle School! I'd like to apply / book a school visit for my child.");
+  const wa = waLink("Hello Zion Hill School! I'd like to apply / book a school visit for my child.");
   return (
     <>
       <PageHero
         eyebrow="Admissions"
-        title="Begin your child's WitQuest journey."
+        title="Begin your child's Zion Hill journey."
         subtitle="A simple five-step process designed to be warm, transparent and family-friendly."
         image={heroImg}
       >
@@ -163,7 +163,7 @@ function AdmissionsPage() {
           <div className="rounded-3xl bg-primary text-white p-10 md:p-16 text-center">
             <h2 className="text-3xl md:text-5xl !text-white">Let's meet your family.</h2>
             <p className="mt-5 text-white/85 max-w-xl mx-auto">
-              The best way to know WitQuest is to walk our halls and meet our teachers.
+              The best way to know Zion Hill is to walk our halls and meet our teachers.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-whatsapp">WhatsApp {SCHOOL.phonePrimary}</a>

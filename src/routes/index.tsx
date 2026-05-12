@@ -8,11 +8,11 @@ import { SCHOOL, waLink } from "@/lib/school";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WitQuest Castle School — Kenyan Heart, Global Mind" },
+      { title: "Zion Hill School — For A Solid Foundation" },
       {
         name: "description",
         content:
-          "A nurturing CBC school in Muranga County, Kenya — raising curious, confident kids with a Kenyan heart and a global mind.",
+          "A nurturing CBC school in Machakos County, Kenya — raising curious, confident kids with a Kenyan heart and a global mind.",
       },
     ],
   }),
@@ -31,7 +31,7 @@ const features = [
   { icon: "🧪", title: "STEM & Innovation", desc: "Smart boards, digital tools, labs and creative spaces from pre-primary upward." },
   { icon: "🎨", title: "Creative Arts", desc: "Music, visual arts and drama to grow expressive, confident kids." },
   { icon: "💛", title: "Pastoral Care", desc: "Small classes (16–20 kids) and dedicated mentors who truly know every child." },
-  { icon: "🌍", title: "Kenyan Heart, Global Mind", desc: "Rooted in Kenyan values; preparing kids to thrive anywhere in the world." },
+  { icon: "🌍", title: "For A Solid Foundation", desc: "Rooted in Kenyan values; preparing kids to thrive anywhere in the world." },
   { icon: "🏛️", title: "Strong Values", desc: "Integrity, respect, civic duty and service rooted in everyday school life." },
 ];
 
@@ -42,13 +42,13 @@ const levels = [
 ];
 
 const testimonials = [
-  { quote: "WitQuest gave our daughter wings. Her confidence and curiosity have soared.", name: "Achieng O.", role: "Parent, Grade 4" },
+  { quote: "Zion Hill gave our daughter wings. Her confidence and curiosity have soared.", name: "Achieng O.", role: "Parent, Grade 4" },
   { quote: "The teachers genuinely know every child. It's a community, not just a school.", name: "David K.", role: "Parent, Grade 2" },
   { quote: "A beautiful balance of academics, arts and character. We feel deeply supported.", name: "Wanjiru M.", role: "Parent, Pre-Primary" },
 ];
 
 function Home() {
-  const wa = waLink("Hello WitQuest Castle School! I'd like to apply / inquire about admissions for my child.");
+  const wa = waLink("Hello Zion Hill School! I'd like to apply / inquire about admissions for my child.");
   return (
     <>
       {/* HERO */}
@@ -59,12 +59,12 @@ function Home() {
         <div className="absolute inset-0 hero-overlay" />
         <div className="container-page relative text-white py-32">
           <div className="max-w-3xl">
-            <span className="eyebrow !text-gold fade-up">CBC · Muranga County, Kenya</span>
+            <span className="eyebrow !text-gold fade-up">CBC · Machakos County, Kenya</span>
             <h1 className="mt-5 text-4xl md:text-6xl lg:text-7xl !text-white leading-[1.05] fade-up fade-up-delay-1">
-              Kenyan Heart, <span className="text-gold">Global Mind.</span>
+              Solid Foundation, <span className="text-gold">Global Mind.</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed fade-up fade-up-delay-2">
-              WitQuest Castle School offers a rigorous CBC education that combines cutting-edge learning
+              Zion Hill School offers a rigorous CBC education that combines cutting-edge learning
               with lifelong values — empowering kids to make a meaningful impact in society.
             </p>
             <div className="mt-9 flex flex-wrap gap-4 fade-up fade-up-delay-3">
@@ -117,7 +117,7 @@ function Home() {
             <span className="eyebrow">About Our School</span>
             <h2 className="mt-4 text-3xl md:text-5xl">A rigorous education rooted in Kenyan values.</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              At WitQuest Castle School (WCS), we offer a rigorous education that promotes lifelong learning
+              At Zion Hill School (WCS), we offer a rigorous education that promotes lifelong learning
               and social responsibility. Our CBC curriculum challenges kids intellectually while fostering
               civic duty, community engagement and Kenyan cultural values.
             </p>
@@ -137,7 +137,7 @@ function Home() {
       <section className="section bg-card">
         <div className="container-page">
           <div className="text-center max-w-2xl mx-auto">
-            <span className="eyebrow">Why Choose WitQuest</span>
+            <span className="eyebrow">Why Choose Zion Hill</span>
             <h2 className="mt-4 text-3xl md:text-5xl">Built around the whole child.</h2>
             <p className="mt-5 text-muted-foreground leading-relaxed">
               Six commitments that shape how we teach, care and grow kids every day.
@@ -224,7 +224,7 @@ function Home() {
         <div className="container-page">
           <div className="rounded-3xl bg-card p-10 md:p-16 text-center shadow-[var(--shadow-elegant)] border border-border">
             <span className="eyebrow">Admissions Open · Limited Spaces</span>
-            <h2 className="mt-4 text-3xl md:text-5xl">Begin your child's WitQuest journey.</h2>
+            <h2 className="mt-4 text-3xl md:text-5xl">Begin your child's Zion Hill journey.</h2>
             <p className="mt-5 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               We're offering an exclusive partial scholarship for new kids — combining affordable, world-class
               education with small classes, modern facilities, and a nurturing Kenyan spirit.

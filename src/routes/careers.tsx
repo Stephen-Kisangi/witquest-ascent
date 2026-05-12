@@ -6,20 +6,20 @@ import { SCHOOL, waLink } from "@/lib/school";
 export const Route = createFileRoute("/careers")({
   head: () => ({
     meta: [
-      { title: "Careers — WitQuest Castle School" },
+      { title: "Careers — Zion Hill School" },
       { name: "description", content: "Join a Kenyan CBC school that values teachers as much as it values kids." },
-      { property: "og:title", content: "Careers at WitQuest" },
-      { property: "og:description", content: "Open roles and what it's like to teach at WitQuest." },
+      { property: "og:title", content: "Careers at Zion Hill" },
+      { property: "og:description", content: "Open roles and what it's like to teach at Zion Hill." },
     ],
   }),
   component: CareersPage,
 });
 
 const openings = [
-  { title: "Lower Primary CBC Teacher", type: "Full-time", loc: "Muranga County" },
-  { title: "STEM & Robotics Coordinator", type: "Full-time", loc: "Muranga County" },
-  { title: "Music Teacher", type: "Part-time", loc: "Muranga County" },
-  { title: "Learning Support Specialist", type: "Full-time", loc: "Muranga County" },
+  { title: "Lower Primary CBC Teacher", type: "Full-time", loc: "Machakos County" },
+  { title: "STEM & Robotics Coordinator", type: "Full-time", loc: "Machakos County" },
+  { title: "Music Teacher", type: "Part-time", loc: "Machakos County" },
+  { title: "Learning Support Specialist", type: "Full-time", loc: "Machakos County" },
 ];
 
 const reasons = [
@@ -29,7 +29,7 @@ const reasons = [
 ];
 
 function CareersPage() {
-  const wa = waLink("Hello WitQuest Castle School! I'd like to join your team. Here are my details:");
+  const wa = waLink("Hello Zion Hill School! I'd like to join your team. Here are my details:");
   return (
     <>
       <PageHero
@@ -45,7 +45,7 @@ function CareersPage() {
           <h2 className="mt-4 text-3xl md:text-5xl">We'd love to hear from you.</h2>
           <p className="mt-6 text-muted-foreground leading-relaxed">
             If you have a passion for teaching or working collaboratively, or if you believe you can contribute
-            to WitQuest Castle School in any way, we'd love to hear from you. At WCS, we value innovation,
+            to Zion Hill School in any way, we'd love to hear from you. At WCS, we value innovation,
             collaboration and continuous growth — and we welcome individuals eager to make a difference in
             education.
           </p>
