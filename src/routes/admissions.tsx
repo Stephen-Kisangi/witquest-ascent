@@ -3,6 +3,7 @@ import { PageHero } from "@/components/PageHero";
 import heroImg from "@/assets/hero.jpg";
 import { useState } from "react";
 import { SCHOOL, waLink } from "@/lib/school";
+import { GraduationCap, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/admissions")({
   head: () => ({
