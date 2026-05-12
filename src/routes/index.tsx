@@ -116,9 +116,9 @@ function Home() {
               height={1280}
               className="rounded-3xl shadow-[var(--shadow-elegant)] w-full object-cover aspect-[4/5]"
             />
-            <div className="hidden md:block absolute -bottom-8 -right-8 bg-brand-red text-white p-6 rounded-2xl shadow-[var(--shadow-lift)] max-w-[240px]">
-              <div className="font-display text-2xl text-white">Kenyan Heart</div>
-              <div className="text-sm text-white/90">Global Mind. Confident kids, ready for the world.</div>
+            <div className="hidden md:block absolute -bottom-8 -right-8 bg-gold text-navy p-6 rounded-2xl shadow-[var(--shadow-lift)] max-w-[240px]">
+              <div className="font-display text-2xl text-navy">A Solid Foundation</div>
+              <div className="text-sm text-navy/85">Confident, curious kids — ready for what's next.</div>
             </div>
           </div>
           <div>
