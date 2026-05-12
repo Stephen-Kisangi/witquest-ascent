@@ -4,15 +4,23 @@ import aboutImg from "@/assets/about.jpg";
 import academicsImg from "@/assets/academics.jpg";
 import learnerLifeImg from "@/assets/learner-life.jpg";
 import { SCHOOL, waLink } from "@/lib/school";
+import {
+  GraduationCap,
+  FlaskConical,
+  Palette,
+  HeartHandshake,
+  Compass,
+  ShieldCheck,
+} from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Zion Hill School — For A Solid Foundation" },
+      { title: "Zion Hill School Ngwata — For A Solid Foundation" },
       {
         name: "description",
         content:
-          "A nurturing CBC school in Machakos County, Kenya — raising curious, confident kids with a Kenyan heart and a global mind.",
+          "A nurturing CBC school in Mlolongo, Machakos County — building solid foundations of character, curiosity and competence in every child.",
       },
     ],
   }),
@@ -27,12 +35,12 @@ const stats = [
 ];
 
 const features = [
-  { icon: "🎓", title: "CBC-Aligned Curriculum", desc: "Kenya's Competency-Based Curriculum brought to life through inquiry, projects and real-world skills." },
-  { icon: "🧪", title: "STEM & Innovation", desc: "Smart boards, digital tools, labs and creative spaces from pre-primary upward." },
-  { icon: "🎨", title: "Creative Arts", desc: "Music, visual arts and drama to grow expressive, confident kids." },
-  { icon: "💛", title: "Pastoral Care", desc: "Small classes (16–20 kids) and dedicated mentors who truly know every child." },
-  { icon: "🌍", title: "For A Solid Foundation", desc: "Rooted in Kenyan values; preparing kids to thrive anywhere in the world." },
-  { icon: "🏛️", title: "Strong Values", desc: "Integrity, respect, civic duty and service rooted in everyday school life." },
+  { Icon: GraduationCap, color: "text-navy", bg: "bg-sky-tint", title: "CBC-Aligned Curriculum", desc: "Kenya's Competency-Based Curriculum brought to life through inquiry, projects and real-world skills." },
+  { Icon: FlaskConical, color: "text-sky", bg: "bg-sky-tint", title: "STEM & Innovation", desc: "Smart boards, digital tools, labs and creative spaces from pre-primary upward." },
+  { Icon: Palette, color: "text-gold-deep", bg: "bg-gold-soft", title: "Creative Arts", desc: "Music, visual arts and drama to grow expressive, confident kids." },
+  { Icon: HeartHandshake, color: "text-gold-deep", bg: "bg-gold-soft", title: "Pastoral Care", desc: "Small classes (16–20 kids) and dedicated mentors who truly know every child." },
+  { Icon: Compass, color: "text-navy", bg: "bg-sky-tint", title: "Solid Foundations", desc: "Rooted in Kenyan values; preparing kids to thrive at the next level and beyond." },
+  { Icon: ShieldCheck, color: "text-sky", bg: "bg-sky-tint", title: "Strong Values", desc: "Integrity, respect, civic duty and service rooted in everyday school life." },
 ];
 
 const levels = [
