@@ -13,10 +13,10 @@ import learnerLifeImg from "@/assets/learner-life.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — WitQuest Castle School" },
-      { name: "description", content: "Moments of learning, play and community at WitQuest Castle School, Kenya." },
-      { property: "og:title", content: "WitQuest Castle Gallery" },
-      { property: "og:description", content: "A glimpse into life at WitQuest." },
+      { title: "Gallery — Zion Hill School" },
+      { name: "description", content: "Moments of learning, play and community at Zion Hill School, Kenya." },
+      { property: "og:title", content: "Zion Hill Gallery" },
+      { property: "og:description", content: "A glimpse into life at Zion Hill." },
     ],
   }),
   component: GalleryPage,
@@ -45,7 +45,7 @@ function GalleryPage() {
     <>
       <PageHero
         eyebrow="Gallery"
-        title="A glimpse into life at WitQuest."
+        title="A glimpse into life at Zion Hill."
         subtitle="Curiosity, joy and everyday moments that make our community sing."
         image={g6}
       />

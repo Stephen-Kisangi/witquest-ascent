@@ -6,10 +6,10 @@ import learnerLifeImg from "@/assets/learner-life.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — WitQuest Castle School" },
-      { name: "description", content: "Our story, mission, vision, values and leadership at WitQuest Castle School in Muranga County, Kenya." },
-      { property: "og:title", content: "About WitQuest Castle School" },
-      { property: "og:description", content: "Kenyan Heart, Global Mind — discover the story, values and people shaping a new generation of kids." },
+      { title: "About — Zion Hill School" },
+      { name: "description", content: "Our story, mission, vision, values and leadership at Zion Hill School in Machakos County, Kenya." },
+      { property: "og:title", content: "About Zion Hill School" },
+      { property: "og:description", content: "For A Solid Foundation — discover the story, values and people shaping a new generation of kids." },
     ],
   }),
   component: AboutPage,
@@ -37,7 +37,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About Our School"
         title="A community where every child is known, challenged and championed."
-        subtitle="Kenyan Heart, Global Mind — WitQuest Castle School blends CBC excellence with creative, character-rich learning."
+        subtitle="For A Solid Foundation — Zion Hill School blends CBC excellence with creative, character-rich learning."
         image={aboutImg}
       />
 
@@ -55,7 +55,7 @@ function AboutPage() {
             <span className="eyebrow">Our Story</span>
             <h2 className="mt-4 text-3xl md:text-5xl">A rigorous education rooted in Kenyan values.</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              At WitQuest Castle School (WCS), we offer a rigorous education that promotes lifelong learning
+              At Zion Hill School (WCS), we offer a rigorous education that promotes lifelong learning
               and social responsibility. Our curriculum challenges kids intellectually while fostering civic
               duty, community engagement and Kenyan cultural values.
             </p>
@@ -122,7 +122,7 @@ function AboutPage() {
       <section className="section bg-primary text-white">
         <div className="container-page text-center">
           <span className="eyebrow !text-gold">Our Motto</span>
-          <h2 className="mt-4 text-4xl md:text-6xl !text-white">Kenyan Heart, Global Mind.</h2>
+          <h2 className="mt-4 text-4xl md:text-6xl !text-white">For A Solid Foundation.</h2>
           <p className="mt-6 text-white/85 max-w-2xl mx-auto leading-relaxed">
             Rooted in Kenyan values. Equipped for the world. We fuse innovation, critical thinking and
             global awareness with the warmth and pride of being Kenyan.

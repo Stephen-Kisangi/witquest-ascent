@@ -9,9 +9,9 @@ import g5 from "@/assets/gallery-5.jpg";
 export const Route = createFileRoute("/learner-life")({
   head: () => ({
     meta: [
-      { title: "Kids' Life — WitQuest Castle School" },
-      { name: "description", content: "Arts, sports, music, STEM, clubs and leadership at WitQuest Castle School, Kenya." },
-      { property: "og:title", content: "Kids' Life at WitQuest" },
+      { title: "Kids' Life — Zion Hill School" },
+      { name: "description", content: "Arts, sports, music, STEM, clubs and leadership at Zion Hill School, Kenya." },
+      { property: "og:title", content: "Kids' Life at Zion Hill" },
       { property: "og:description", content: "A vibrant world beyond the classroom." },
     ],
   }),

@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 import { SCHOOL, waLink } from "@/lib/school";
 
 export function Footer() {
-  const wa = waLink("Hello WitQuest Castle! I'd like to know more about admissions.");
+  const wa = waLink("Hello Zion Hill! I'd like to know more about admissions.");
   return (
     <footer className="bg-primary text-white/90 mt-0">
       <div className="container-page pt-20 pb-10">
@@ -12,8 +12,8 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <Logo className="h-14 w-14" />
               <div>
-                <div className="font-display font-bold text-lg text-white">WitQuest Castle</div>
-                <div className="text-xs tracking-widest uppercase text-gold">School</div>
+                <div className="font-display font-bold text-lg text-white">Zion Hill School</div>
+                <div className="text-xs tracking-widest uppercase text-gold">Ngwata · {SCHOOL.motto}</div>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-white/80 max-w-sm">

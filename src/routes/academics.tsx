@@ -6,9 +6,9 @@ import { waLink } from "@/lib/school";
 export const Route = createFileRoute("/academics")({
   head: () => ({
     meta: [
-      { title: "Academics — WitQuest Castle School" },
-      { name: "description", content: "Our CBC-aligned curriculum, learning levels, technology integration and assessment philosophy at WitQuest Castle School, Kenya." },
-      { property: "og:title", content: "Academics at WitQuest Castle" },
+      { title: "Academics — Zion Hill School" },
+      { name: "description", content: "Our CBC-aligned curriculum, learning levels, technology integration and assessment philosophy at Zion Hill School, Kenya." },
+      { property: "og:title", content: "Academics at Zion Hill" },
       { property: "og:description", content: "How CBC, creativity and care shape our learning experience." },
     ],
   }),

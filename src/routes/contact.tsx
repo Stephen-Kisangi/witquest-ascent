@@ -8,9 +8,9 @@ import { SCHOOL, waLink } from "@/lib/school";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — WitQuest Castle School" },
-      { name: "description", content: "Visit, call, email or WhatsApp WitQuest Castle School in Muranga County, Kenya." },
-      { property: "og:title", content: "Contact WitQuest Castle" },
+      { title: "Contact — Zion Hill School" },
+      { name: "description", content: "Visit, call, email or WhatsApp Zion Hill School in Machakos County, Kenya." },
+      { property: "og:title", content: "Contact Zion Hill" },
       { property: "og:description", content: "We'd love to hear from your family." },
     ],
   }),
@@ -47,7 +47,7 @@ function ContactPage() {
     setErrors({});
     const { name, phone, subject, message } = parsed.data;
     const text = [
-      `Hello WitQuest Castle School,`,
+      `Hello Zion Hill School,`,
       ``,
       `My name is ${name}.`,
       phone ? `Phone: ${phone}` : null,
@@ -164,7 +164,7 @@ function ContactPage() {
               </a>
             </div>
             <a
-              href={waLink("Hello WitQuest Castle School! I'd like to make an inquiry.")}
+              href={waLink("Hello Zion Hill School! I'd like to make an inquiry.")}
               target="_blank"
               rel="noopener noreferrer"
               className="feature-card flex items-center gap-4 hover:border-brand-red transition-colors"
@@ -182,7 +182,7 @@ function ContactPage() {
 
             <div className="rounded-3xl overflow-hidden shadow-[var(--shadow-elegant)] aspect-[4/3]">
               <iframe
-                title="WitQuest Castle School location"
+                title="Zion Hill School location"
                 src={SCHOOL.mapsEmbed}
                 width="100%"
                 height="100%"

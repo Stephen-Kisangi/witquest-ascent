@@ -2,7 +2,7 @@ import { SCHOOL, waLink } from "@/lib/school";
 
 export function WhatsAppFloat() {
   const href = waLink(
-    `Hello WitQuest Castle School! I'd like to make an inquiry about admissions.`,
+    `Hello Zion Hill School! I'd like to make an inquiry about admissions.`,
   );
   return (
     <a

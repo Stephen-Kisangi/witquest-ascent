@@ -37,10 +37,10 @@ export function Navbar() {
           <Logo className={`h-12 w-12 ${scrolled ? "" : "drop-shadow-lg"}`} />
           <div className="leading-tight">
             <div className={`font-display font-bold text-base ${scrolled ? "text-primary" : "text-white"}`}>
-              WitQuest Castle
+              Zion Hill School
             </div>
-            <div className={`text-[10px] tracking-[0.2em] uppercase ${scrolled ? "text-brand-red" : "text-gold"}`}>
-              Kenyan Heart, Global Mind
+            <div className={`text-[10px] tracking-[0.2em] uppercase ${scrolled ? "text-gold-deep" : "text-gold"}`}>
+              For A Solid Foundation
             </div>
           </div>
         </Link>
